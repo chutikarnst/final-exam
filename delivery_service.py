@@ -38,8 +38,6 @@ class DeliveryOrder():
             f"Customer: {self.customer}\n"\
             f"Status: {self.status}\n"\
             f"Driver: {self.driver}"
-        else:
-            return f"Order for {self.item} → {self.status}"
         
 if __name__ == "__main__":
     Alice = Customer("Alice", "Wonderland")
@@ -65,5 +63,5 @@ if __name__ == "__main__":
     print()
 
     print("Final Status:")
-    print(order1.summary())
-    print(order2.summary())
+    print(f"Order for {order1.item} → {order1.status}")
+    print(f"Order for {order2.item} → {order2.status}")
