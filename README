@@ -35,5 +35,5 @@ it is 100% correctly implemented.
 
 final-exam
 |- REDME        #This file
-|- final result         #picture of the code's final result
 |- delivery_service.py      #the code for the project
+|- final_result         #picture of the code's final result
