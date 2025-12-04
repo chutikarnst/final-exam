@@ -1,0 +1,38 @@
+FINAL-EXAM PROJECT
+
+This project simulates a simple delivery service using OOP.
+
+
+1. Class Person
+Attributes: name
+Method: introduce() → prints out Hi, I'm <name>.
+
+2. Class Customer (inherits from Person)
+Additional attribute: address
+Method: place_order(item) → returns a new DeliveryOrder object for the given item
+
+3. Class Driver (inherits from Person)
+Additional attribute: vehicle
+Method: deliver(order) → prints: <driver_name> is delivering <item> to <customer_name> using <vehicle>.
+Should update the order’s status to "delivered"
+
+4. Class DeliveryOrder
+Attributes:
+- customer
+- item
+- status (initially "preparing")
+Methods:
+- assign_driver(driver)
+- summary() → returns a string describing the order
+
+
+Run in delivery_service.py 
+The final output should be the same as the png in the directory.
+
+
+it is 100% correctly implemented.
+
+
+final-exam
+|- REDME        #This file
+|- delivery_service.py      #the code for the project
